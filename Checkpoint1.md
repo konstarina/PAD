@@ -18,11 +18,17 @@ When the user logs out of the application, the server deletes that record, inval
 
 ### Description of all API endpoints
 POST sign up user data
+
 POST sign up drivers data
+
 POST login user data
+
 POST login drivers data
+
 GET refresh token 
+
 GET trip list
+
 GET trip details
 	
 ### List of technologies to be used
