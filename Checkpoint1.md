@@ -13,9 +13,17 @@ When the user logs out of the application, the server deletes that record, inval
 * create and update data on the server
 * handling WebSocket connection
 * send messages to the UI from the server via WebSockets
+* query the server for information about users' past, present, and future trips
+* trips status (requested, started, in progress, finalized)
 
-### Description of the outbound API endpoints
-### Description of all internal API endpoints
+### Description of all API endpoints
+POST sign up user data
+POST sign up drivers data
+POST login user data
+POST login drivers data
+GET refresh token 
+GET trip list
+GET trip details
 	
 ### List of technologies to be used
 * Server-side will be implemented in Python, Django (web sockets, Django Channels)
